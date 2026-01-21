@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oxolot | Markets</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="bg-animation.js" defer></script>
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <nav>
+        <div class="logo"><a href="index.html">OXOLOT</a></div>
+        <div class="nav-links">
+            <a href="markets.html" class="active">Markets</a>
+            <a href="exchange.html">Exchange</a>
+            <a href="support.html">Learn</a>
+        </div>
+        <div class="nav-actions">
+            <button class="btn btn-ghost">Log In</button>
+            <button class="btn btn-primary">Get Started</button>
+        </div>
+    </nav>
+
+    <div class="page-container">
+        <div class="page-header">
+            <h1>Market Trends</h1>
+            <p>Real-time price data and volume metrics for top tier assets.</p>
+        </div>
+
+        <table class="data-table">
+            <thead>
+                <tr>
+                    <th>Asset Name</th>
+                    <th>Price</th>
+                    <th>24h Change</th>
+                    <th>Market Cap</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div class="coin-flex">
+                            <div class="coin-icon" style="background: #f7931a;"></div>
+                            <div><strong>Bitcoin</strong> <span style="color:#666">BTC</span></div>
+                        </div>
+                    </td>
+                    <td>$96,432.00</td>
+                    <td class="trend-up">+2.45%</td>
+                    <td>$1.8T</td>
+                    <td><button class="btn btn-ghost">Trade</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="coin-flex">
+                            <div class="coin-icon" style="background: #627eea;"></div>
+                            <div><strong>Ethereum</strong> <span style="color:#666">ETH</span></div>
+                        </div>
+                    </td>
+                    <td>$4,120.50</td>
+                    <td class="trend-up">+1.12%</td>
+                    <td>$420B</td>
+                    <td><button class="btn btn-ghost">Trade</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="coin-flex">
+                            <div class="coin-icon" style="background: #ff9f0a;"></div>
+                            <div><strong>Oxolot</strong> <span style="color:#666">OXL</span></div>
+                        </div>
+                    </td>
+                    <td>$12.45</td>
+                    <td class="trend-up">+14.20%</td>
+                    <td>$85M</td>
+                    <td><button class="btn btn-ghost">Trade</button></td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="coin-flex">
+                            <div class="coin-icon" style="background: #e1e1e1;"></div>
+                            <div><strong>Solana</strong> <span style="color:#666">SOL</span></div>
+                        </div>
+                    </td>
+                    <td>$145.20</td>
+                    <td class="trend-down">-0.8%</td>
+                    <td>$65B</td>
+                    <td><button class="btn btn-ghost">Trade</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <div class="copyright">&copy; 2026 Oxolot Inc.</div>
+    </footer>
+</body>
+</html>
